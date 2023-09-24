@@ -1,0 +1,28 @@
+body {
+    background-color: darkgrey;
+    color: white;
+}
+
+h1 {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.parent-container {
+    background: darkcyan;
+    border: 2px solid grey;
+    width: 1000px;
+    height: 1000px;
+    margin: 20px auto 10vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.item-1 {
+    background: black;
+}
+
+.item-2 {
+    background: white;
+}
